@@ -1,7 +1,7 @@
 const express = require("express")
 const TodoController = require("../controllers/todo")
 const router = express.Router()
-const TodoModel = require('../models/TodoSchema');
+const TodoModel = require('../models/todoSchema');
 
 router.get("/api/fake", (request,response)=>{
     response.json({

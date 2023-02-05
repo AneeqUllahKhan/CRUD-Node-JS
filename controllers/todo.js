@@ -1,4 +1,4 @@
-const TodoModel = require('../models/TodoSchema');
+const TodoModel = require('../models/todoSchema');
 
 const TodoController = {
     postTodo:(request,response)=>{
