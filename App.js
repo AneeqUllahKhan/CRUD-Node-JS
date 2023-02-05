@@ -3,7 +3,6 @@ const { default: mongoose } = require("mongoose");
 const app = express();
 require('dotenv').config()
 const cors = require("cors");
-const TodoModel = require('./models/TodoSchema');
 const router = require('./routes');
 
 const PORT = process.env.PORT || 5000;
